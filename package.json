@@ -12,6 +12,7 @@
     "prepublish": "npm test"
   },
   "keywords": [
+    "syllable",
     "world",
     "lorem",
     "random",
