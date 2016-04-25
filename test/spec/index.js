@@ -4,7 +4,7 @@ describe('random-syllable: ', function () {
 
   var randomSyllable = require('../../');
 
-  it('randomLorem()', function () {
+  it('randomSyllable()', function () {
     expect(randomSyllable()).to.be.a('string');
 
     for (var i = 0; i < 1000; i++) {
@@ -12,9 +12,9 @@ describe('random-syllable: ', function () {
     }
   });
 
-  it('randomLorem(2)', function () {
+  it('randomSyllable({ length: 2})', function () {
     for (var i = 0; i < 1000; i++) {
-      expect(randomSyllable(2)).to.be.have.length(2);
+      expect(randomSyllable({ length: 2 })).to.be.have.length(2);
     }
   });
 });

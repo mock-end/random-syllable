@@ -21,13 +21,16 @@ $ npm install --save random-syllable
 var randomSyllable = require('random-syllable');
 
 // API
-// - randomSyllable();
-// - randomSyllable(length);
+// - randomSyllable([options]);
+
+// options
+// - length
+
 
 randomSyllable();
 // => fop
 
-randomSyllable(2);
+randomSyllable({ length: 2 });
 // => ji
 ```
 

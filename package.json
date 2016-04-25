@@ -1,6 +1,6 @@
 {
   "name": "random-syllable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a semi-speakable syllable, 2 or 3 letters.",
   "main": "index.js",
   "scripts": {
@@ -44,8 +44,9 @@
   },
   "dependencies": {
     "clamp": "^1.0.1",
-    "random-char": "^1.0.2",
-    "random-natural": "^1.0.2",
+    "is-object": "^1.0.1",
+    "random-char": "^1.0.4",
+    "random-natural": "^1.0.3",
     "to-integer": "^1.0.1"
   }
 }
